@@ -38,7 +38,7 @@ All previews use lavender as the accent color and mauve as the highlight color.
 
 1. Copy script to desired location, e.g. `~/gum-catppuccin.sh`.
   ```shell
-  wget https://raw.githubusercontent.com/holo96/catppuccin-gum/raw/main/gum-catppuccin.sh -O ~/gum-catppuccin.sh
+  wget https://raw.githubusercontent.com/holo96/catppuccin-gum/refs/heads/main/gum-catppuccin.sh -O ~/gum-catppuccin.sh
   ```
 2. Source the script to apply the Catppuccin theme for Gum (temporary for the current shell):
   ```shell
