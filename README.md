@@ -19,19 +19,19 @@
 All previews use lavender as the accent color and mauve as the highlight color.
 <details>
 <summary>🌻 Latte</summary>
-<img src="previews/latte.gif"/>
+<img src="assets/latte.gif"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="previews/frappe.gif"/>
+<img src="assets/frappe.gif"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="previews/macchiato.gif"/>
+<img src="assets/macchiato.gif"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="previews/mocha.gif"/>
+<img src="assets/mocha.gif"/>
 </details>
 
 ## Usage
