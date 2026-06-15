@@ -53,12 +53,11 @@ All previews use lavender as the accent color and mauve as the highlight color.
 
 1. Copy the Nushell module to desired location, e.g. `~/gum-catppuccin.nu`:
   ```shell
-  wget https://raw.githubusercontent.com/holo96/catppuccin-gum/refs/heads/main/gum-catppuccin.nu -O
-  ~/gum-catppuccin.nu
+  wget https://raw.githubusercontent.com/holo96/catppuccin-gum/refs/heads/main/gum-catppuccin.nu -O ~/gum-catppuccin.nu
   ```
 2. Add and use `apply_gum_theme` function in your scripts or config:
   ```
-  use ~/.config/gum/theme.nu apply_gum_theme
+  use ~/gum-catppuccin.nu apply_gum_theme
   apply_gum_theme                                      # defaults: mocha + lavender
   apply_gum_theme --flavour latte --accent peach       # auto-pick complementary highlight
   apply_gum_theme --accent red --highlight maroon      # manually specify highlight

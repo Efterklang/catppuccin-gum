@@ -1,7 +1,7 @@
 # Catppuccin theme for gum (https://github.com/charmbracelet/gum)
 #
 # Usage:
-#   use ~/.config/gum/gum-catppuccin.nu apply_gum_theme
+#   use ./gum-catppuccin.nu apply_gum_theme
 #   apply_gum_theme                                      # defaults: mocha + lavender
 #   apply_gum_theme --flavour latte --accent peach       # auto-pick complementary highlight
 #   apply_gum_theme --accent red --highlight maroon      # manually specify highlight color
