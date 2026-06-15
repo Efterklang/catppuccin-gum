@@ -36,6 +36,8 @@ All previews use lavender as the accent color and mauve as the highlight color.
 
 ## Usage
 
+### Bash/Zsh
+
 1. Copy script to desired location, e.g. `~/gum-catppuccin.sh`.
   ```shell
   wget https://raw.githubusercontent.com/holo96/catppuccin-gum/refs/heads/main/gum-catppuccin.sh -O ~/gum-catppuccin.sh
@@ -46,6 +48,22 @@ All previews use lavender as the accent color and mauve as the highlight color.
   ```
    - To make it permanent, add the same `source` line to your `~/.bashrc` or `~/.zshrc`.
    - If you omit arguments, defaults are flavour `mocha`, accent `lavender`, and an auto-picked complementary highlight.
+
+### Nushell
+
+1. Copy the Nushell module to desired location, e.g. `~/gum-catppuccin.nu`:
+  ```shell
+  wget https://raw.githubusercontent.com/holo96/catppuccin-gum/refs/heads/main/gum-catppuccin.nu -O
+  ~/gum-catppuccin.nu
+  ```
+2. Add and use `apply_gum_theme` function in your scripts or config:
+  ```
+  use ~/.config/gum/theme.nu apply_gum_theme
+  apply_gum_theme                                      # defaults: mocha + lavender
+  apply_gum_theme --flavour latte --accent peach       # auto-pick complementary highlight
+  apply_gum_theme --accent red --highlight maroon      # manually specify highlight
+  ```
+  - All parameters are optional and have shell auto-completion support. The default values are same as Bash/Zsh version
 
 <!-- The FAQ section is optional. Remove if needed.-->
 ## 🙋 FAQ
